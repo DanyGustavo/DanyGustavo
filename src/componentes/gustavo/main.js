@@ -1,10 +1,11 @@
-import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native';
+import React from 'react';
+import { Text, View } from 'react-native';
 
-export default function App() {
+export default function Gustavo() {
   return (
     <View style={styles.container}>
-      <Text>Gustavo</Text>
+      <Gustavo/>
+      <Danyela/>
      
     </View>
   );
